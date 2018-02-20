@@ -15,4 +15,4 @@ app.use('/static', express.static(path.join(__dirname, '../static'))); // settin
 
 app.use('/', routes);
 
-app.listen(3000); // listening to port 3000
+app.listen(process.env.PORT || 5000); // listening to port 5000
