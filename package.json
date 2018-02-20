@@ -1,0 +1,30 @@
+{
+  "name": "spoyl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./production/server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./production/server.js"
+  },
+  "dependencies": {
+    "babel-eslint": "7.2.1",
+    "body-parser": "1.17.1",
+    "es6-promise": "^4.1.0",
+    "express": "4.15.2",
+    "express-device": "0.4.2",
+    "ignore-styles": "5.0.1",
+    "normalize.css": "4.2.0",
+    "object-assign": "4.1.0",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-redux": "4.4.5",
+    "react-router": "2.7.0",
+    "redux": "3.5.2",
+    "redux-thunk": "2.1.0",
+    "sitemap": "^1.11.1",
+    "superagent": "2.3.0",
+    "sw-toolbox": "3.4.0"
+  }
+}
